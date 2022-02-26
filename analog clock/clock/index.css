@@ -1,0 +1,47 @@
+#clock{
+    /* background-color: gray; */
+    position: relative;
+    margin: auto;
+    border: 5px solid grey;
+    height: 40vw;
+    width: 40vw;
+    background: url(time.png) no-repeat;
+    background-size: 100%;
+}
+
+#Hourhand, #Minutehand, #Secondhand{
+    position: absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#Hourhand{
+    width: 1.4%;
+    height: 29%;
+    top: 21%;
+    left: 49.25%;
+    opacity: 1;
+    /* display: none; */
+
+}
+
+#Minutehand{
+    width: 1.2%;
+    height: 33%;
+    top: 17%;
+    left: 49.3%;
+    opacity: 0.9;
+    /* display: none; */
+    
+}
+
+#Secondhand{
+    width: 0.8%;
+    height: 40%;
+    top: 10%;
+    left: 49.6%;
+    opacity: 0.8;
+    /* display: none; */
+}
